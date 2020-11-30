@@ -11,4 +11,5 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+<!-- > **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page. -->
+> A student who is curious, willing to learn, performs well under pressure, prefers new, creative solutions and quite loves communicating with different people.
