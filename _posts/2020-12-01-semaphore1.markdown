@@ -1,0 +1,215 @@
+---
+title:  "Giải Thích Producer - Consumer_ Semaphore"
+categories: enjoy
+---
+
+Các bạn đã học xong &#39;Các giải pháp đồng bộ hóa&#39; nên mình mạn phép giải thích lại. Mình thấy các bài toán người ta chỉ tập trung vào ba giải pháp: (i) semaphore, (ii) monitor và (iii) message.
+
+<hr/>
+
+Thứ nhất, nói về semaphore: Biến semaphore sẽ có một value \>= 0, một hàng đợi. Và lưu ý hai phương thức up(Semaphore s), down(Semaphore s) là hai phương thức đã chạy thì sẽ chạy luôn .
+
+- Vậy dùng semaphore để giải quyết độc quyền truy xuất thế nào? Chỉ cần gọi &#39;down&#39; trước khi vào miền găng, sau khi ra miền găng gọi &#39;up&#39;. Nhớ là khởi tạo biến semaphore = 1
+
+- Dùng semaphore để giải quyết đồng bộ thì sao? Ta gọi &#39;up&#39; ở cuối tiến trình muốn thực thi trước, rồi gọi down ở đầu tiến trình muốn thực thi sau đó. Nhớ là khởi tạo biến semaphore = 0
+
+
+![pic 1](\assets\img\semaphore\1.png)
+
+<hr/>
+
+Thứ hai, nói về monitor:
+
+- Dùng monitor giải quyết độc quyền truy xuất thì ta phải để miền găng vào một phương thức trong monitor
+
+- Dùng monitor để giải quyết đồng bộ thì ta gọi &#39;signal&#39; ở cuối phương thức muốn thực thi trước, rồi gọi &#39;wait&#39; ở đầu phương thức muốn thực thi sau.
+
+
+![pic 2](\assets\img\semaphore\2.png)
+
+<hr/>
+
+Thứ ba, message, về cơ bản sẽ gồm 3 giai đoạn: (i) clients gởi yêu cầu đến server, (ii) server chấp nhận yêu cầu và gửi cho client thứ mà client yêu cầu, (iii) clients gửi tín hiệu kết thúc. Kiểu vậy :v
+
+![pic 3](\assets\img\semaphore\3.png)
+
+<hr/>
+
+Bây giờ, thử dùng semaphore để giải quyết bài toán Producer-Consumer (Viết tắt P-C). Bài toán này được mô tả như sau:
+
+- P sản xuất hàng và đặt vào Buffer
+
+- C lấy hàng từ Buffer và tiêu thụ
+
+- Buffer có kích thước giới hạn
+
+Thì, bài toán này sẽ sinh ra 3 yêu cầu:
+
+- P và C không được đồng thời truy cập Buffer (1 - yêu cầu độc quyền truy xuất)
+
+- P không được thêm hàng vào Buffer đã đầy (2)
+
+- C không được lấy hàng từ Buffer trống (3)
+
+(1) là yêu cầu độc quyền truy xuất, (2,3) là yêu cầu về đồng bộ, nghĩa là P và C phải phối hợp với nhau để tránh vi phạm điều 2 và 3.
+
+<hr/>
+
+Từ (1) ta có thể hình dung ra sẽ dùng đoạn code sau
+
+{
+
+    Down(\<Tên biến semaphore bất kì\>);
+
+    CS;
+
+    Up(\<Tên biến semaphore bất kì\>);
+
+}
+
+(CS là viết tắt Critical-Section)
+
+Có thể dễ dàng thấy miền găng ở đây là việc nhập hàng vào Buffer của P và việc lấy hàng ra từ Buffer của C. Ta có được code.
+
+| Producer | Cosumer |
+| --- | --- |
+| {<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Down(\<Tên biến semaphore bất kì\>);<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nhập\_hàng\_vào\_Buffer;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up(\<Tên biến semaphore bất kì\>);<br/>} | {<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Down(\<Tên biến semaphore bất kì\>);<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lấy\_hàng\_từ\_Buffer;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up(\<Tên biến semaphore bất kì\>);<br/>} |
+
+Đặt \<Tên biến semaphore bất kì\> là mutex và khởi tạo mutex = 1. Ta được:
+
+Mutex = 1;
+
+| Producer | Cosumer |
+| --- | --- |
+| {<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Down(mutex);<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nhập\_hàng\_vào\_Buffer;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up(mutex);<br/>} | {<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Down(mutex);<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lấy\_hàng\_từ\_Buffer;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up(mutex);<br/>} |
+
+<hr/>
+
+Tiếp theo, để giải quyết điều (2) thì khi đầy hàng, C phải lấy hàng ra trước rồi P mới nhập hàng vào được. Ta đặt up ở cuối tiến trình muốn chạy trước, đặt down ở đầu tiến trình muốn chạy sau.
+
+| Producer | Cosumer |
+| --- | --- |
+| Down(\<Tên biến bất kì\>);<br/>......<br/>......<br/>...... | ......<br/>......<br/>......<br/>Up(\<Tên biến bất kì\>); |
+
+Đặt \<Tên biến bất kì\> là empty (đếm chỗ trống, lưu ý khi đầy hàng thì empty sẽ = 0), thì ta được
+
+| Producer | Cosumer |
+| --- | --- |
+| Down(empty);<br/>......<br/>......<br/>...... | <br/>......<br/>......<br/>......Up(empty); |
+
+<hr/>
+
+Cuối cùng, để giải quyết điều (3) thì khi Buffer trống, P phải nhập hàng vào trước khi C lấy hàng ra tiêu thụ. Biến full là biến đếm chỗ đầy, full = 0 khi Buffer trống.
+
+| Producer | Cosumer |
+| --- | --- |
+| ......<br/>......<br/>......<br/>Up(full); | Down(full);<br/>......<br/>......<br/>...... |
+
+Kết lại ta được:
+
+![pic 4](\assets\img\semaphore\4.png)
+
+![pic 5](\assets\img\semaphore\5.png)
+
+<hr/>
+
+Thế là xong về cách dùng semaphore để giải quyết bài toán P-C. Tiếp theo là dùng monitor.
+
+Monitor, các bạn có thể hình dung nó như là một class vậy. Cụ thể, Monitor được dùng trong bài toán này, theo các yêu cầu của bài toán đã phân tích ở trên, thì sẽ có:
+
+- Các biến điều kiện: ở đây, dùng 2 biến điều kiện thể hiện cho việc &quot;đã đầy&quot; và &quot;đang trống&quot; của Buffer là biến full và biến empty. Các biến điều kiện đều sẽ có một hàng đợi trên nó.
+
+- Phương thức enter()
+
+- Phương thức remove()
+
+Ta được code cho monitor này là
+
+Monitor {
+
+    Condition full, empty;
+
+    Void enter();
+
+    Void remove();
+
+}
+
+<hr/>
+
+Bây giờ, cũng đi từng chút một như cách ở trên. Ta đã biết đoạn mã miền găng là phương thức nhập hàng và lấy hàng, cụ thể nó là enter\_item và remove\_item. Để giải quyết độc quyền truy xuất, thì ta đặt hai phương thức này vào hai phương thức của monitor là enter() và remove(). Ta được code:
+
+Monitor {
+
+    Condition full, empty;
+
+    Void enter() {
+
+        Enter\_item(...bla..bla);
+
+    }
+
+    Void remove() {
+
+        Remove\_item(...bla..bla);
+
+    }
+
+}
+
+<hr/>
+
+Giờ, để giải quyết yêu cầu (2) lúc đầy hàng, C phải lấy hàng ra rồi P mới nhập hàng vào được, thì hình dung thế này, phương thức remove() phải chạy trước rồi mới đến enter(). Vậy đặt signal(\<tên biến điều kiện\>) ở cuối phương thức remove(), đặt wait(\<tên biến điều kiện\>) ở đầu enter(). Và một điều, biến điều kiện ở đây sẽ là biến full (báo đầy hàng).
+
+Được code thế này, mình sắp xếp từ trên xuống để cho dễ nhìn
+
+Monitor {
+
+    Condition full, empty;
+
+    Void remove() { // chạy trước
+
+        Remove\_item(...bla..bla);
+
+        Signal(full);
+
+    }
+
+    Void enter() { // chạy sau
+
+        Wait(full);
+
+        Enter\_item(...bla..bla);
+
+    }
+
+}
+
+Nhưng không phải lúc nào remove() cũng thực hiện trước enter(), chỉ những lúc đầy hàng thì remove() mới thực hiện trước enter(). Vậy ta phải set điều kiện.
+
+Bằng cách sử dụng một biến count để đếm số lượng hàng có trong Buffer, khi Buffer đầy count sẽ = kích thước của Buffer (count = N), khi Buffer đầy thì sao? thì sẽ đợi. Tóm lại, &quot;Nếu Buffer đầy thì đợi, không nhập hàng nữa&quot;, ta được code thế này:
+
+Monitor {
+
+    Condition full, empty;
+
+    Void remove() { // chạy trước
+
+        Remove\_item(...bla..bla);
+
+        Signal(full);
+
+    }
+
+    Void enter() { // chạy sau
+
+        if (count == N) // nếu đầy
+
+            Wait(full); // thì đợi
+
+        Enter\_item(...bla..bla);
+
+    };
+
+}
+
