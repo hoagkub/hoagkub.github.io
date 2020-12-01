@@ -1,6 +1,6 @@
 ---
 title:  "Giải Thích Producer - Consumer_ Semaphore"
-categories: enjoy
+categories: study
 ---
 
 Các bạn đã học xong &#39;Các giải pháp đồng bộ hóa&#39; nên mình mạn phép giải thích lại. Mình thấy các bài toán người ta chỉ tập trung vào ba giải pháp: (i) semaphore, (ii) monitor và (iii) message.
