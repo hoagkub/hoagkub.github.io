@@ -7,14 +7,12 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
-title: Dang H.Hoang                          # the main title
+title: Hoang Dang                          # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: A software engineer.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  dang huy hoang, portfolio, hoang dang
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://hoagkub.github.io'
