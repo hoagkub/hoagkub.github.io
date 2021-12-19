@@ -28,6 +28,8 @@ Contains functions embedded in a vehicle that not related to the control of its 
 
 Telematic includes system that support information exchanges between vehicles or between vehicle and infrastructures.
 
+HMI (Human-Machine Interface) generally support the interaction between the driver and the passengers with numerous functions embedded in the car. Their main functionalities are presenting information about status of the car, the status of a multimedia device, etc.
+
 ## __5. Active/Passive Safety__
 ---
 
