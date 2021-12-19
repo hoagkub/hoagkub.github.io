@@ -1,6 +1,0 @@
----
-title:  "Welcome to My Blog!"
-categories: others
----
-Welcome to My Blog.
-Đây là trang Blog của mình. Nơi mình lưu trữ nhưng thứ hay ho :v
