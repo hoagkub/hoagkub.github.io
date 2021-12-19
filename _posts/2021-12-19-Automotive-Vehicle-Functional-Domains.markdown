@@ -16,17 +16,17 @@ Related to the vehicle's motion control functions such as: airbags, wipers, ligh
 ## __2. Chassis Domain__
 ---
 
-Related to drive control (position and direction of wheel, braking)
+Related to drive control (position and direction of wheel, braking).
 
 ## __3. Body Domain__
 ---
 
-T.B.D
+Contains functions embedded in a vehicle that not related to the control of its dynamic.
 
 ## __4. Multimedia, Telematic and HMI__
 ---
 
-T.B.D
+Telematic includes system that support information exchanges between vehicles or between vehicle and infrastructures.
 
 ## __5. Active/Passive Safety__
 ---
