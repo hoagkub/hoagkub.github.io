@@ -1,6 +1,6 @@
 ---
 title:  "Những suy nghĩ vẩn vơ bất chợt"
-categories: Tan_Man
+categories: Tan-Man
 ---
 
 > Một ngày chúng ta mất đi tất cả, thì thứ duy nhất chúng ta còn có lẽ là tri thức. 
