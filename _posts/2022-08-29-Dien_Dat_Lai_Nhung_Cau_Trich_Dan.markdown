@@ -19,3 +19,6 @@ categories: Tan-man
 
 **Có thể diễn đạt lại như sau:** Đại học ngày nay có thể nói là đại trà, ai cũng có thể vào được đại học. Việc này dẫn đến một thực tế sinh viên sau khi ra trường thường không vững kiến thức . Cho nên, tiêu chuẩn đánh giá người đó có đủ kiến thức hay không không những trả lời câu hỏi "Bạn có học đại học không" mà còn là "Bạn có nhớ những gì đã học từ thời học đại học không"
 
+**Trích dẫn:** "Ngày mai và chuyện ngoài ý muốn không biết cái nào sẽ đến trước" *- Vô danh*
+
+**Có thể diễn đạt lại như sau:** 
