@@ -13,7 +13,7 @@ categories: Tan-man
 
 **Trích dẫn:** "Trường học nên nhắm đến mục đích làm sao để những người trẻ ra trường là một nhân cách hài hòa, chứ không chỉ là một chuyên gia... Sự phát triển khả năng tổng quát về tư duy và phán đoán độc lập luôn cần được đặt lên trước nhất, chứ không phải sự sở đắc những kiến thức chuyên biệt" *- Albert Einstein*
 
-**Có thể diễn đạt lại như sau:** Giáo dục thành công là tạo ra những thế hệ vừa có tài, vừa có đức. Giống như Bác Hồ đã nói. Khi nền giáo dục phát triển theo hướng chuyên biệt hóa kỹ năng của người học thì người học sẽ thiếu đi những kiến thức tổng quát, phát triển theo hướng không toàn diện.
+**Có thể diễn đạt lại như sau:** Giáo dục thành công là tạo ra những thế hệ vừa có tài, vừa có đức. Giống như Bác Hồ đã nói, khi nền giáo dục phát triển theo hướng chuyên biệt hóa kỹ năng của người học thì người học sẽ thiếu đi những kiến thức tổng quát, phát triển theo hướng không toàn diện.
 
 **Trích dẫn:** "Đừng hỏi một người có học qua đại học không, hãy hỏi đại học có thẩm thấu qua được người đó không và liệu người đó có là một trường đại học di động không." *- E.H.Chapin*
 
