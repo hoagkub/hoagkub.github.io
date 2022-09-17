@@ -21,6 +21,8 @@ categories: Tan-man
 
 **Trích dẫn:** "Ngày mai và chuyện ngoài ý muốn không biết cái nào sẽ đến trước" *- Vô danh*
 
-**Có thể diễn đạt lại như sau:** 
+**Có thể diễn đạt lại như sau:** ...
 
 **Trích dẫn:** "Trên đời này không có nỗ lực nào là uổng phí, cũng không có sự thành công nào là tình cờ có được. Tất cả những cái gọi là vô tình cắm liễu liễu xanh tươi thực ra là nước đổ thành dòng. Đời người không có con đường là đi uổng phí, cũng không có cực khổ nào là uổng công. Mỗi một bước mà chúng ta đi bây giờ đều là nền tảng vững chắc của sau này" *- Vô danh, dịch bởi Quỳnh Như*
+
+**Có thể diễn đạt lại như sau:** ...
