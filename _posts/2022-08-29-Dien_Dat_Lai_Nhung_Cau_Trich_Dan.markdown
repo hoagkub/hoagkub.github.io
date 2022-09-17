@@ -17,5 +17,5 @@ categories: Tan-man
 
 **Trích dẫn:** "Đừng hỏi một người có học qua đại học không, hãy hỏi đại học có thẩm thấu qua được người đó không và liệu người đó có là một trường đại học di động không." *- E.H.Chapin*
 
-**Có thể diễn đạt lại như sau:** Đại học ngày nay có thể nói là đại trà, ai cũng có thể vào được đại học. Việc này dẫn đến một thực tế về sinh viên đại học sau khi ra trường: thường không vững kiến thức đại học. Cho nên tiêu chuẩn đánh giá người đó có đủ kiến thức hay không không còn chỉ là câu hỏi "Bạn có học đại học không" mà ngày nay nó còn lại "Bạn có nhớ những gì đã học từ thời học đại học không"
+**Có thể diễn đạt lại như sau:** Đại học ngày nay có thể nói là đại trà, ai cũng có thể vào được đại học. Việc này dẫn đến một thực tế sinh viên sau khi ra trường thường không vững kiến thức . Cho nên tiêu chuẩn đánh giá người đó có đủ kiến thức hay không không còn chỉ là câu hỏi "Bạn có học đại học không" mà ngày nay nó còn lại "Bạn có nhớ những gì đã học từ thời học đại học không"
 
