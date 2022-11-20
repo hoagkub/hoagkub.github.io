@@ -13,9 +13,16 @@ categories: Tan-man
 
 **Trích dẫn:** "Trường học nên nhắm đến mục đích làm sao để những người trẻ ra trường là một nhân cách hài hòa, chứ không chỉ là một chuyên gia... Sự phát triển khả năng tổng quát về tư duy và phán đoán độc lập luôn cần được đặt lên trước nhất, chứ không phải sự sở đắc những kiến thức chuyên biệt" *- Albert Einstein*
 
-**Có thể diễn đạt lại như sau:** Giáo dục thành công là tạo ra những thế hệ vừa có tài, vừa có đức. Giống như Bác Hồ đã nói. Khi nền giáo dục phát triển theo hướng chuyên biệt hóa kỹ năng của người học thì người học sẽ thiếu đi những kiến thức tổng quát, phát triển theo hướng không toàn diện.
+**Có thể diễn đạt lại như sau:** Giáo dục thành công là tạo ra những thế hệ vừa có tài, vừa có đức. Giống như Bác Hồ đã nói, khi nền giáo dục phát triển theo hướng chuyên biệt hóa kỹ năng của người học thì người học sẽ thiếu đi những kiến thức tổng quát, phát triển theo hướng không toàn diện.
 
 **Trích dẫn:** "Đừng hỏi một người có học qua đại học không, hãy hỏi đại học có thẩm thấu qua được người đó không và liệu người đó có là một trường đại học di động không." *- E.H.Chapin*
 
-**Có thể diễn đạt lại như sau:** Đại học ngày nay có thể nói là đại trà. Ai cũng có thể vào được đại học. Việc này dẫn đến một thực tế về sinh viên đại học sau khi ra trường: thường không vững kiến thức đại học. Cho nên tiêu chuẩn đánh giá người đó có đủ kiến thức hay không không còn chỉ là câu hỏi "Bạn có học đại học không" mà ngày nay nó còn lại "Bạn có nhớ những gì đã học từ thời học đại học không"
+**Có thể diễn đạt lại như sau:** Đại học ngày nay có thể nói là đại trà, ai cũng có thể vào được đại học. Việc này dẫn đến một thực tế sinh viên sau khi ra trường thường không vững kiến thức . Cho nên, tiêu chuẩn đánh giá người đó có đủ kiến thức hay không không những trả lời câu hỏi "Bạn có học đại học không" mà còn là "Bạn có nhớ những gì đã học từ thời học đại học không"
 
+**Trích dẫn:** "Ngày mai và chuyện ngoài ý muốn không biết cái nào sẽ đến trước" *- Vô danh*
+
+**Có thể diễn đạt lại như sau:** ...
+
+**Trích dẫn:** "Trên đời này không có nỗ lực nào là uổng phí, cũng không có sự thành công nào là tình cờ có được. Tất cả những cái gọi là vô tình cắm liễu liễu xanh tươi thực ra là nước đổ thành dòng. Đời người không có con đường là đi uổng phí, cũng không có cực khổ nào là uổng công. Mỗi một bước mà chúng ta đi bây giờ đều là nền tảng vững chắc của sau này" *- Vô danh, dịch bởi Quỳnh Như*
+
+**Có thể diễn đạt lại như sau:** ...
