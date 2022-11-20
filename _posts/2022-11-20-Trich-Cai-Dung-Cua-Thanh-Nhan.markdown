@@ -1,0 +1,6 @@
+---
+title:  "Trích những câu hay từ \"Cái Dung Của Thánh Nhân\" (Nguyễn Duy Cần)"
+categories: Doc-Sach
+---
+
+> Hãy xem chung quanh ta thì rõ: phần đông con người, nếu gặp phải cảnh khó khăn, hay đem việc mình mà bàn bạc với kẻ khác. Chủ ý họ là được người khác khuyên bảo, và giúp cho sự quyết đoán hay quyết đoán hộ cho. Nếu các bạn muốn giữ độc lập cho tinh thần, thì phải xa lánh cái cử chỉ bạc nhược ấy đi. Thay vì tìm những ý tưởng ấy chung quanh bạn, bạn hãy tìm nó nơi bạn trước hết. Muốn vậy phải kiếm nơi yên lặng để trầm tư mặc tưởng, để quan sát những vấn đề ấy đủ mọi phương diện Nếu bạn thấy sự hiểu biết của bạn còn thiếu sót, và bạn cần phải nghiên cứu cho tinh tường, chừng đó bạn sẽ tìm đến kẻ khác, giàu kinh nghiệm, giàu học hỏi hơn để thỉnh giáo. Nhưng, bạn đừng có đem công việc của bạn mà nói ra, hãy khéo cật vấn bằng một vài câu hỏi cần thiết về vấn đề bạn muốn biết là đủ. Bạn đã tránh cho bạn sự tản mác tinh thần, mà bạn cũng tránh cho người ân nhân của bạn một sự phung phí vô ích về khí lực.
