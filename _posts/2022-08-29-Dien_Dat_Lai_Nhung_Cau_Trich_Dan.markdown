@@ -1,6 +1,6 @@
 ---
 title:  "Diễn đạt lại những câu trích dẫn"
-categories: Tan-man
+categories: Tan-Man
 ---
 
 **Trích dẫn:** "Nếu người ta dốc sạch ví cho đầu óc của mình, chẳng ai có thể lấy nó đi. Đầu tư vào tri thức luôn là khoản đầu tư sinh lợi nhất." *- Benjamin Franklin*

@@ -1,5 +1,5 @@
 ---
-title:  "Trích những câu hay từ \"Cái Dung Của Thánh Nhân\" (Nguyễn Duy Cần)"
+title:  "Trích những câu hay từ Cái Dũng Của Thánh Nhân (Nguyễn Duy Cần)"
 categories: Doc-Sach
 ---
 
