@@ -5,14 +5,13 @@ date: "2023-03-11 19:00:00 +0700"
 categories: Uncategorized
 ---
 
-- [Setup một local repository](#setup-một-local-repository)
-- [Clean-checkout 1 branch](#clean-checkout-1-branch)
-
-
 Hồi mới đi làm, hàng ngày tôi phải gõ đi gõ lại rất nhiều lệnh Git. Việc này đã
 khiến tôi cảm thấy mất thời gian và chán nản. Vì vậy, tôi đã nghĩ "Vậy sao không
 nghĩ tới việc tổng hợp các lệnh Git hay dùng và viết chúng thành một script nhỏ
 để sử dụng hàng ngày?"
+
+- [Setup một local repository](#setup-một-local-repository)
+- [Clean-checkout 1 branch](#clean-checkout-1-branch)
 
 # Setup một local repository
 
