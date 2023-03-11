@@ -1,6 +1,0 @@
----
-title:  "WELCOME TO MY PERSONNAL SITE!"
-categories: Others
----
-
-Welcome to My Personnal site!
