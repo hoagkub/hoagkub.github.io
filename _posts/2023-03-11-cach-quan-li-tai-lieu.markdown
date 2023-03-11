@@ -1,5 +1,7 @@
 ---
+layout: post
 title:  "Tôi đã quản lý tài liệu khi học Đại học như thế nào?"
+date: "2023-03-11 17:00:00 +0700"
 categories: Uncategorized
 ---
 
