@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Các lệnh Git mình sử dụng gần như hàng ngày và best-practice flow cho từng use-case"
-date: "2023-03-11 19:00:00 +0700"
+date: "2022-03-10 19:00:00 +0700"
 categories: Uncategorized
 ---
 
