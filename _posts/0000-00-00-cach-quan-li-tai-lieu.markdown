@@ -5,10 +5,9 @@ date: "2023-03-11 17:00:00 +0700"
 categories: Uncategorized
 ---
 
-Vì sắp tới mình sẽ chuyển qua bộ phận AI nên mình đã mở chiếc máy tính cá nhân
-của mình lên để tìm lại các tài liệu về Machine Learning lúc còn đi học. Việc
-sắp xếp file, video bài giảng có khoa học đã giúp mình nhanh chóng tìm lại được
-các tài liệu này. Đây là cách mình đã quản lý file, video bài giảng hồi đó.
+Chà... Đã một năm rồi mình mới lại viết tiếp.
+
+Vì sắp tới mình sẽ chuyển qua bộ phận AI nên mình đã mở chiếc máy tính cá nhân của mình lên để tìm lại các tài liệu về Machine Learning lúc còn đi học. Việc sắp xếp file, video bài giảng có khoa học đã giúp mình nhanh chóng tìm lại được các tài liệu này. Đây là cách mình đã quản lý file, video bài giảng hồi đó.
 
 | ![Image not found](/assets/img/cach-quan-li-tai-lieu/vidu.png) |
 |:--:|
