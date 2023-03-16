@@ -1,12 +1,8 @@
 #  The contact options.
-#  v2.3
-#  https://github.com/cotes2020/jekyll-theme-chirpy
-#  © 2020 Cotes Chung
-#  MIT Licensed
 
 -
   type: github
-  icon: 'fab fa-github-alt'
+  icon: 'fab fa-github'
 -
   type: twitter
   icon: 'fab fa-twitter'
@@ -23,7 +19,7 @@
 # -
 #   type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your mastodon account page
+#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 # -
 #   type: linkedin
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
