@@ -6,4 +6,5 @@ last_modified_at: "2020-04-21 21:00:00 +0700"
 categories: Uncategorized
 ---
 
-Một chú mèo lười...
+> Một chú mèo lười...
+{: .prompt-info }
