@@ -3,7 +3,7 @@ layout: post
 title:  "FNN & CNN Concepts"
 date: "2024-08-25 20:00:00 +0700"
 last_modified_at: "2024-08-25 20:00:00 +0700"
-categories: "Deep Learning"
+categories: [Study, Deep_Learning]
 ---
 
 ![Image not found](/assets/img/fnn-cnn-concepts/ink_1.png)
