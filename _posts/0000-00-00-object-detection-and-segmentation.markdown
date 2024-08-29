@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Object Detection and Segmentation"
-date: "2024-08-29 20:00:00 +0700"
-last_modified_at: "2024-08-29 20:00:00 +0700"
+date: "2024-08-28 20:00:00 +0700"
+last_modified_at: "2024-08-28 20:00:00 +0700"
 categories: [Study, Deep_Learning]
 ---
 
