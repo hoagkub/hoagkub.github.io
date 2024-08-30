@@ -35,9 +35,9 @@ _Source: Udacity Deep Learning Nanodegree Program_
 
 ### VI.3.1 mAP (Mean Average Precision)
 
-\\[ mAP = {\sum_{i=1}^K AP_i \over K} \\]
+\[ mAP = {\sum_{i=1}^K AP_i \over K} \]
 
-\\(AP_i\\) is computed as follows
+\(AP_i\) is computed as follows
 
 ![Image not found](/assets/img/object-detection-and-segmentation/prec-recall-curve.gif)
 _Source: Udacity Deep Learning Nanodegree Program_
@@ -47,9 +47,9 @@ _Source: Udacity Deep Learning Nanodegree Program_
 
 ### VI.3.2 mAR (Mean Average Recall)
 
-\\[ mAR = {\sum_{i=1}^K AR_i \over K} \\]
+\[ mAR = {\sum_{i=1}^K AR_i \over K} \]
 
-\\(AR_i\\) is computed as follows
+\(AR_i\) is computed as follows
 
 ![Image not found](/assets/img/object-detection-and-segmentation/iou-recall-curve.gif)
 _Source: Udacity Deep Learning Nanodegree Program_
