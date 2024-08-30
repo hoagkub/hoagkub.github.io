@@ -55,3 +55,14 @@ $AR_i$ is computed as follows
 ![Image not found](/assets/img/object-detection-and-segmentation/iou-recall-curve.gif)
 _Source: Udacity Deep Learning Nanodegree Program_
 
+# VII. Semantic Segmentation
+
+The following image is an example of Segmentation Masks differentiating people from cars and backgrounds
+
+![Image not found](/assets/img/object-detection-and-segmentation/segmentation.jpg)
+_Source: Udacity Deep Learning Nanodegree Program_
+
+We have:
+
+1. Binary Segmentation: Inputs are the original image + a mask with 1 channel (pixels = 1 are foreground, pixels = O are background)
+2. Multiclass Segmentation: Inputs are K + 1 masks (or 1 mask with K+l channels), where K is the number of classes. The +1 is for the background class.
