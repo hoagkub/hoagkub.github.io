@@ -65,4 +65,4 @@ _Source: Udacity Deep Learning Nanodegree Program_
 We have:
 
 1. Binary Segmentation: Inputs are the original image + a mask with 1 channel (pixels = 1 are foreground, pixels = O are background)
-2. Multiclass Segmentation: Inputs are K + 1 masks (or 1 mask with K+l channels), where K is the number of classes. The +1 is for the background class.
+2. Multiclass Segmentation: Inputs are K + 1 masks (or 1 mask with K+l channels), where K is the number of classes. The +1 is for the background class. In some cases, the background mask can be omitted.
