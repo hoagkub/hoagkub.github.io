@@ -66,3 +66,12 @@ We have:
 
 1. Binary Segmentation: Inputs are the original image + a mask with 1 channel (pixels = 1 are foreground, pixels = O are background)
 2. Multiclass Segmentation: Inputs are K + 1 masks (or 1 mask with K+l channels), where K is the number of classes. The +1 is for the background class. In some cases, the background mask can be omitted.
+
+# VIII. UNet - Semantic segmentation
+
+UNet is a specific architecture for Semantic Segmentation. 
+
+![Image Not Found](/assets/img/object-detection-and-segmentation/unet.jpeg)
+_Diagram of UNet architecture. Source: Udacity Deep Learning Nanodegree program_
+
+
