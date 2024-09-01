@@ -57,7 +57,7 @@ _Source: Udacity Deep Learning Nanodegree Program_
 
 # VII. Semantic Segmentation
 
-The following image is an example of Segmentation Masks differentiating people from cars and backgrounds
+Semantic Segmentation is one key technique of Image Segmentation. The following image is an example of Segmentation Masks differentiating people from cars and backgrounds
 
 ![Image not found](/assets/img/object-detection-and-segmentation/segmentation.jpg)
 _Source: Udacity Deep Learning Nanodegree Program_
