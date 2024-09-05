@@ -74,4 +74,8 @@ UNet is a specific architecture for Semantic Segmentation.
 ![Image Not Found](/assets/img/object-detection-and-segmentation/unet.jpeg)
 _Diagram of UNet architecture. Source: Udacity Deep Learning Nanodegree program_
 
+# IX. Dice Loss
+
+$$ Dice loss = 1 - {2 \sum_{i=1}^{n_{pix}} {p_iy_i} \over \sum_{i=1}^{n_{pix}} {p_i + y_i}} $$
+
 
