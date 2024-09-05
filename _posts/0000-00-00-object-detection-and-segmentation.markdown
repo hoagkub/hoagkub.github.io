@@ -76,6 +76,10 @@ _Diagram of UNet architecture. Source: Udacity Deep Learning Nanodegree program_
 
 # IX. Dice Loss
 
+A loss to optimize F1 score
+
+$$ F1\;score = 2 {precision \times recall \over precision + recall } = { 2TP \over {2TP + FN + FP}} $$
+
 $$ Dice loss = 1 - {2 \sum_{i=1}^{n_{pix}} {p_iy_i} \over \sum_{i=1}^{n_{pix}} {p_i + y_i}} $$
 
 In which:
