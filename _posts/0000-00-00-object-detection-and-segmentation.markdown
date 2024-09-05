@@ -84,6 +84,6 @@ $$ Dice\;loss = 1 - {2 \sum_{i=1}^{n_{pix}} {p_iy_i} \over \sum_{i=1}^{n_{pix}} 
 
 In which:
 
-* p_i and y_i represents the i-th pixel in respectively the predition mask and the groung truth mask.
-* n_{pix} is total number of pixels in the image.
+* $p_i$ and $y_i$ represents the i-th pixel in respectively the predition mask and the groung truth mask.
+* $n_{pix}$ is total number of pixels in the image.
 
