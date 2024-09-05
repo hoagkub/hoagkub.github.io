@@ -78,4 +78,8 @@ _Diagram of UNet architecture. Source: Udacity Deep Learning Nanodegree program_
 
 $$ Dice loss = 1 - {2 \sum_{i=1}^{n_{pix}} {p_iy_i} \over \sum_{i=1}^{n_{pix}} {p_i + y_i}} $$
 
+In which:
+
+* p_i and y_i represents the i-th pixel in respectively the predition mask and the groung truth mask.
+* n_{pix} is total number of pixels in the image.
 
