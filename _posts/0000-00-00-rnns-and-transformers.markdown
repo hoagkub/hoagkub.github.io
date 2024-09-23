@@ -11,4 +11,12 @@ categories: [Study, Deep_Learning]
 
 # III. Introduction to Transformers
 
+## III.1. Intro
+
 > Multihead attention is a technique for allowing the model to focus on different part of the input sequence at different levels of abtraction, allowing it to capture more complex relationships between the words.
+
+## III.2. Transformers in Detail
+
+### III.2.1. Transformer Architecture
+
+![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.png)
