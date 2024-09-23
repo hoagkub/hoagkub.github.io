@@ -7,3 +7,4 @@ categories: [Study, Deep_Learning]
 ---
 
 ![Image not found](/assets/img/rnns-and-transformers/ink_1.png)
+![Image not found](/assets/img/rnns-and-transformers/ink_2.png)
