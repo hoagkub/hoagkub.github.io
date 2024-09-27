@@ -37,3 +37,7 @@ At a high level, Transformer architecture consists of an encoder and a decoder
 ![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.jpeg)
 
 > EncoderLayer(x) = LayerNorm(x + SelfAttention(x) + FeedForward(x))
+
+### III.2.2. Key, Value and Query
+
+![Image not found](/assets/img/rnns-and-transformers/transformer_self_attention.png)
