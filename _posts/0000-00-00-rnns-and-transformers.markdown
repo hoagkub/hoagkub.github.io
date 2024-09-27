@@ -19,4 +19,6 @@ categories: [Study, Deep_Learning]
 
 ### III.2.1. Transformer Architecture
 
-![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.png)
+![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.jpeg)
+
+EncoderLayer(x) = LayerNorm(x + SelfAttention(x) + FeedForward(x))
