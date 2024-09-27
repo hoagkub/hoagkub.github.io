@@ -27,6 +27,8 @@ Transformers overcome all these limitation of LSTMs by using self-attention and 
 
 ### III.2.1. Transformer Architecture
 
+At a high level, Transformer architecture consists of an encoder and a decoder
+
 ![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.jpeg)
 
 > EncoderLayer(x) = LayerNorm(x + SelfAttention(x) + FeedForward(x))
