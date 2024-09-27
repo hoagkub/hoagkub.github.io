@@ -17,8 +17,16 @@ categories: [Study, Deep_Learning]
 
 ## III.2. Transformers in Detail
 
+LTSMs have some limitations:
+
+- Limited attention span
+- Computation efficiency
+- Handling multiple requests
+
+Transformers overcome all these limitation of LSTMs by using self-attention and parallel processing
+
 ### III.2.1. Transformer Architecture
 
 ![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.jpeg)
 
-EncoderLayer(x) = LayerNorm(x + SelfAttention(x) + FeedForward(x))
+> EncoderLayer(x) = LayerNorm(x + SelfAttention(x) + FeedForward(x))
