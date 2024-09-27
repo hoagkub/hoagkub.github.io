@@ -32,6 +32,8 @@ At a high level, Transformer architecture consists of an encoder and a decoder
 - Encoder take in a sequence input tokens and produces a sequence of hidden presentations
 - Decoder take in the encoder's output and generates a sequence of output tokens
 
+The key innovation of Transformer is using self-attention. The attention mechannism works by computing *the attention weight between each input token and all other input token* and *using these weight to compute weighted sum of the input token embeddings.*
+
 ![Image not found](/assets/img/rnns-and-transformers/transformer_architecture.jpeg)
 
 > EncoderLayer(x) = LayerNorm(x + SelfAttention(x) + FeedForward(x))
