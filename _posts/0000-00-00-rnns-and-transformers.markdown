@@ -23,3 +23,5 @@ categories: [Study, Deep_Learning]
 - Key: You can think of the key vectors as a set of reference points the model uses to decide which parts of the input sequence are important.
 - Value: The value vectors are the actual information that the model associates with each key vector.
 - Query: Query vectors are used to determine how much attention to give to each key-value pair.
+
+![Image not found](/assets/img/rnns-and-transformers/ink_4.png)
