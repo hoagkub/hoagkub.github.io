@@ -25,3 +25,4 @@ categories: [Study, Deep_Learning]
 - Query: Query vectors are used to determine how much attention to give to each key-value pair.
 
 ![Image not found](/assets/img/rnns-and-transformers/ink_4.png)
+
